@@ -33,13 +33,13 @@ $(document).ready(function(){
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
   const link = document.createElement('a');
-  link.href = 'https://raw.githubusercontent.com/SusieTang0/JobTracking/main/My%20Resume.pdf'; 
+  link.href = 'https://raw.githubusercontent.com/SusieTang0/SusieTang0.github.io/main/Resume-shuting.pdf'; 
   link.download = 'Resume_ShutingTang.pdf'; 
   link.click();
 });
 document.getElementById('downloadBtnNav').addEventListener('click', function() {
   const link = document.createElement('a');
-  link.href = 'https://raw.githubusercontent.com/SusieTang0/JobTracking/main/My%20Resume.pdf'; 
+  link.href = 'https://raw.githubusercontent.com/SusieTang0/SusieTang0.github.io/main/Resume-shuting.pdf'; 
   link.download = 'Resume_ShutingTang.pdf'; 
   link.click();
 });
